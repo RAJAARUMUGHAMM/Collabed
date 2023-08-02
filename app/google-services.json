@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181475856859",
+    "project_id": "collabed-5df4c",
+    "storage_bucket": "collabed-5df4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181475856859:android:969cbced440b2c367257fe",
+        "android_client_info": {
+          "package_name": "com.example.collabed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181475856859-2bjqthi4o7r2hkff6h8kb8d5nf5tpq9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collabed",
+            "certificate_hash": "f6bead51225655189749010e2fbdf6658e042f59"
+          }
+        },
+        {
+          "client_id": "181475856859-mrtjmij1mrgj9stnh5vfe3e05rp7ii4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNjD0Wub_DsZLs3v2LTmZ-NhRkABLKyxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181475856859-ibehhijs87325luvtlh8nsjjq7cqossa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

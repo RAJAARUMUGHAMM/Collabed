@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    android:background="@drawable/backpurple2"
+    tools:context=".TopicActivity">
+
+    <TextView
+        android:id="@+id/mytop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/googlebut"
+
+        android:fontFamily="@font/fugaz_one"
+        android:padding="5dp"
+        android:shadowColor="#FF00ED"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+        android:text="FINISHED TOPICS"
+
+        android:textColor="#4A117C"
+        android:textFontWeight="900"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/boxfill"
+        android:gravity="start"
+        android:hint="Enter Topics"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytop" />
+
+
+    <Button
+
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/but"
+        android:text="ADD"
+        android:shadowColor="#C007C6"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+        android:fontFamily="@font/fugaz_one"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+    <Button
+
+        android:id="@+id/buttonsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/but"
+        android:text="SUBMIT"
+        android:shadowColor="#C007C6"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+        android:fontFamily="@font/fugaz_one"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editTextadd"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/boxfill"
+        android:gravity="start"
+        android:hint="Enter Topics"
+        android:visibility="invisible"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/futuretop"
+        app:layout_constraintEnd_toStartOf="@+id/buttonsave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+
+    <TextView
+        android:id="@+id/futuretop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+
+        android:background="@drawable/googlebut"
+        android:fontFamily="@font/fugaz_one"
+        android:padding="5dp"
+        android:shadowColor="#FF00ED"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+
+        android:text="FUTURE TOPICS"
+        android:textColor="#4A117C"
+        android:textFontWeight="900"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsave" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/boxfill"
+        android:gravity="start"
+        android:hint="Enter Topics"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/futuretop" />
+    <Button
+
+        android:id="@+id/buttonadd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/but"
+        android:text="ADD"
+        android:shadowColor="#C007C6"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+        android:fontFamily="@font/fugaz_one"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+    <Button
+
+        android:id="@+id/buttonsave1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/but"
+        android:text="SUBMIT"
+        android:shadowColor="#C007C6"
+        android:shadowDx="6.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="2.6"
+        android:fontFamily="@font/fugaz_one"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editTextadd1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/boxfill"
+        android:gravity="start"
+        android:hint="Enter Topics"
+        android:padding="20dp"
+        android:visibility="invisible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonsave1"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.177" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

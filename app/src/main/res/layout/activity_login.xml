@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/backpurple3"
+   >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+android:padding="10dp"
+            android:fontFamily="@font/fugaz_one"
+            android:shadowColor="#FF00ED"
+            android:shadowDx="6.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="2.6"
+            android:text="LOGIN"
+            android:textColor="#4A117C"
+            android:textFontWeight="900"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/boxfill"
+            android:fontFamily="@font/fugaz_one"
+            android:hint="Enter Your Email"
+            android:padding="10dp"
+            android:shadowColor="#BABBBF"
+            android:shadowDx="4.5"
+            android:shadowDy="2.3"
+            android:shadowRadius="1.6"
+            android:textColor="#641D5F"
+            android:textFontWeight="900"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textLogin" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/boxfill"
+            android:fontFamily="@font/fugaz_one"
+            android:hint="Enter Your Password"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:shadowColor="#BABBBF"
+            android:shadowDx="4.5"
+            android:shadowDy="2.3"
+            android:shadowRadius="1.6"
+            android:textColor="#641D5F"
+            android:textFontWeight="900"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/etMail" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/fugaz_one"
+            android:text="New User?"
+            android:textColor="#641D5F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+        <Button
+            android:id="@+id/butsignup"
+            android:layout_width="86dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/but"
+            android:fontFamily="@font/fugaz_one"
+            android:text="Sign Up"
+            android:shadowColor="#C007C6"
+            android:shadowDx="6.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="2.6"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.187"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+        <Button
+            android:id="@+id/butgooglelogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/googlebut"
+            android:text="Sign in with Google"
+            android:drawableLeft="@drawable/googleiconsmall"
+            android:textSize="13sp"
+
+            android:shadowColor="#BDA7A7"
+            android:shadowDx="3.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="2.6"
+            android:fontFamily="@font/fugaz_one"
+            android:paddingLeft="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.786" />
+
+        <Button
+            android:id="@+id/butlogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/but"
+            android:text="LOGIN"
+            android:fontFamily="@font/fugaz_one"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:shadowColor="#C007C6"
+            android:shadowDx="6.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="2.6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/butgooglelogin"
+            app:layout_constraintVertical_bias="0.708" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

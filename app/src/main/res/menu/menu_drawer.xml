@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/upload"
+
+        android:title="Upload"
+
+        android:icon="@drawable/ic_upload" />
+    <item
+        android:id="@+id/topics"
+        android:title="Topics"
+        android:icon="@drawable/ic_topics"/>
+    <item
+        android:id="@+id/creator_mode"
+        android:title="Creator Mode"
+        android:icon="@drawable/creatorsmall"/>
+    <item
+        android:id="@+id/editor_mode"
+        android:title="Editor Mode"
+        android:icon="@drawable/editorsmall"/>
+</menu>

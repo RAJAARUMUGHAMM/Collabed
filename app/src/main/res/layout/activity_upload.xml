@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpurple2"
+    tools:context=".UploadActivity">
+
+    <EditText
+        android:id="@+id/filename"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/selectFileButton"
+        tools:layout_editor_absoluteX="16dp"
+        android:background="@drawable/boxfill"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/selectFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/but"
+        android:text="Select File"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/uploadFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:background="@drawable/but"
+        android:text="Upload"
+        app:layout_constraintBottom_toBottomOf="@+id/selectFileButton"
+        app:layout_constraintStart_toEndOf="@+id/selectFileButton" />
+
+    <TextView
+        android:id="@+id/filePathTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/selectFileButton" />
+
+    <Button
+        android:id="@+id/downloadbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/but"
+        android:text="View"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filePathTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
